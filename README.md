@@ -1,2 +1,3 @@
-# Smart-Energy-Meter
-Part of an end-of-year project, this work focused on a Smart Energy Meter prototype designed to remotely monitor the status and consumption of electrical loads. The system aimed to enhance conventional energy metering by reducing energy usage, and supporting efficient management through improved control and communication features.
+# 📟⚡ Smart-Energy-Meter
+This project implements a prototype Smart Energy Meter developed on an Arduino Uno board powered by the ATmega328P microcontroller, designed to provide real-time monitoring and control of household or industrial electrical loads. The prototype focuses on enhancing traditional metering systems by enabling remote data collection, energy consumption analysis, and load status supervision through IoT-based communication.
+## Description
