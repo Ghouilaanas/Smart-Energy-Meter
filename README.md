@@ -8,17 +8,23 @@ For communication, the prototype employs the SIM800L GSM/GPRS module, allowing t
 ## ⚙️ Tools and Technologies
 
 #### 1. Hardware components
-- **Microcontroller**: STM32F407 Discovery
-- **Sensor**: Analog Infrared Sensor **Sharp**
+- **Microcontroller**: Arduino Uno
+- **Sensor**: Analog Infrared Sensor **ACS712**
 - **Display**: I²C LCD 16x2
-- **Programming**: STM32CubeIDE / HAL library (Hardware Abstraction Layer)
+- **Wiring and Connectors**: Used to link all components together
+- **Programming**: ArduinoIDE
 
 #### 1.2 Hardware connections
-- **Sharp** : 
+- **ACS712** : 
   - VCC → 5V
   - OUT → PA1 (ADC1_IN1 sur STM32)
   - GND → GND
-- **LCD** :
+- **SIM800L** :
+  - VCC → 5V
+  - SDA → PB7 (Bus I2C1 sur STM32)
+  - SCL → PB6 (Bus I2C1 sur STM32)
+  - GND → GND
+- **4 Channel Relay Module** :
   - VCC → 5V
   - SDA → PB7 (Bus I2C1 sur STM32)
   - SCL → PB6 (Bus I2C1 sur STM32)
