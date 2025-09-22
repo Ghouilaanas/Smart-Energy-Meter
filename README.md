@@ -10,6 +10,8 @@ For communication, the prototype employs the SIM800L GSM/GPRS module, allowing t
 #### 1. Hardware components
 - **Microcontroller**: Arduino Uno
 - **Sensor**: Analog Infrared Sensor **ACS712**
+- **Loads**: fans and light bulbs
+- **Communication Module**: GSM **SIM800L**
 - **Display**: I²C LCD 16x2
 - **Wiring and Connectors**: Used to link all components together
 - **Programming**: ArduinoIDE
@@ -17,23 +19,26 @@ For communication, the prototype employs the SIM800L GSM/GPRS module, allowing t
 #### 1.2 Hardware connections
 - **ACS712** : 
   - VCC → 5V
-  - OUT → PA1 (ADC1_IN1 sur STM32)
+  - OUT → 
   - GND → GND
 - **SIM800L** :
   - VCC → 5V
-  - SDA → PB7 (Bus I2C1 sur STM32)
-  - SCL → PB6 (Bus I2C1 sur STM32)
+  - SDA → 
+  - SCL → 
   - GND → GND
 - **4 Channel Relay Module** :
   - VCC → 5V
-  - SDA → PB7 (Bus I2C1 sur STM32)
-  - SCL → PB6 (Bus I2C1 sur STM32)
+  - IN1 → 
+  - IN2 →
+  - IN3 → 
+  - IN4 → 
   - GND → GND
 ---
 ## 📖 Guide to Use
 1. Clone this repository:
 git clone https://github.com/Ghouilaanas/Smart-Energy-Meter.git
-2. 📂 **Open the STM32CubeIDE project** corresponding to the desired traffic flow detection approach.
-3. 🛠️ **Build and flash the firmware** for that approach onto the appropriate STM32 board.
-4. 🔌 **Connect the sensors, microcontroller, and display** following the wiring diagram for the selected setup.
-5. ⚡ **Power on the system** and **observe the real-time traffic flow readings** on the LCD.
+2. 📂 **Open the the Arduino Sketch** : open the Arduino IDE and load the .ino file for this project.
+3. ⚙️ **Connect the Components**.
+4. 🛠️ **Build and flash the firmware** onto the Arduino Uno board using the Arduino IDE.
+5. 🔌 **Connect the sensors, microcontroller, and display** following the wiring diagram for the selected setup.
+6. ⚡ **Power on the system** and **monitor the real-time environmental data (temperature, humidity, atmospheric pressure, and light intensity) displayed** on the LCD.
