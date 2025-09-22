@@ -36,6 +36,7 @@ For communication, the prototype employs the SIM800L GSM/GPRS module, allowing t
 ---
 ## 🎬 Preview
 Here's a preview of the prototype setup of a smart lighting control system using Arduino, relays, and bulbs inside a cardboard test enclosure. This preview shows the hardware wiring and experimental model.
+
  ![smart-lighting-prototype](smart-lighting-prototype.jpg)
  
 ---
