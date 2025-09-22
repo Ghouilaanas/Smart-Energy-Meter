@@ -8,13 +8,13 @@ For communication, the prototype employs the SIM800L GSM/GPRS module, allowing t
 ## ⚙️ Tools and Technologies
 
 #### 1. Hardware components
-- **Microcontroller**: Arduino Uno
-- **Sensor**: Analog Infrared Sensor **ACS712**
-- **Loads**: fans and light bulbs
-- **Communication Module**: GSM **SIM800L**
-- **Display**: I²C LCD 16x2
-- **Wiring and Connectors**: Used to link all components together
-- **Programming**: ArduinoIDE
+- **Microcontroller** : Arduino Uno
+- **Sensor** : Analog Infrared Sensor **ACS712**
+- **Loads** : fans and light bulbs
+- **Communication Module** : GSM **SIM800L**
+- **Display** : I²C LCD 16x2
+- **Wiring and Connectors** : Used to link all components together
+- **Programming** : ArduinoIDE
 
 #### 1.2 Hardware connections
 - **ACS712** : 
