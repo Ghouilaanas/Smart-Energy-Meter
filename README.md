@@ -18,24 +18,35 @@ For communication, the prototype employs the SIM800L GSM/GPRS module, allowing t
 
 #### 1.2 Hardware connections
 - **ACS712** : 
-  - VCC → 5V
-  - OUT → 
-  - GND → GND
+  - VCC → 5V (Arduino)
+  - OUT → A0 (Arduino analog input)
+  - GND → GND (Arduino)
 - **SIM800L** :
   - VCC → 5V
-  - SDA → 
-  - SCL → 
+  - TX → Pin 10 (Arduino RX)
+  - RX → Pin 11 (Arduino TX)
   - GND → GND
 - **4 Channel Relay Module** :
   - VCC → 5V
-  - IN1 → 
-  - IN2 →
-  - IN3 → 
-  - IN4 → 
+  - IN1 → Pin 2 (Light Bulb 1 control)
+  - IN2 → Pin 3 (Light Bulb 2 control)
+  - IN3 → Pin 4 (Fan 1 control)
+  - IN4 → Pin 5 (Fan 2 control)
   - GND → GND
+➡️ Relay Outputs:
+  - Relay1 (IN1) → Light Bulb 1 (220V/110V live wire through relay, neutral directly)
+  - Relay2 (IN2) → Light Bulb 2
+  - Relay3 (IN3) → Fan 1
+  - Relay4 (IN4) → Fan 2
+- **I²C LCD 16x2 Display** :
+- VCC → 5V
+- SDA → A4 (Arduino Uno I²C SDA)
+- SCL → A5 (Arduino Uno I²C SCL)
+- GND → GND
+  
 ---
 ## 🎬 Preview
-Here's a preview of the prototype setup of a smart lighting control system using Arduino, relays, and bulbs inside a cardboard test enclosure. This preview shows the hardware wiring and experimental model.
+Here' a preview of the prototype setup of a smart lighting control system using Arduino, relays, and bulbs inside a cardboard test enclosure. This preview shows the hardware wiring and experimental model.
 
  ![smart-lighting-prototype](smart-lighting-prototype.jpg)
  
