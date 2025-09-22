@@ -40,10 +40,10 @@ For communication, the prototype employs the SIM800L GSM/GPRS module, allowing t
   - Relay3 (IN3) → Fan 1
   - Relay4 (IN4) → Fan 2
 - **I²C LCD 16x2 Display** :
-- VCC → 5V
-- SDA → A4 (Arduino Uno I²C SDA)
-- SCL → A5 (Arduino Uno I²C SCL)
-- GND → GND
+  - VCC → 5V
+  - SDA → A4 (Arduino Uno I²C SDA)
+  - SCL → A5 (Arduino Uno I²C SCL)
+  - GND → GND
   
 ---
 ## 🎬 Preview
