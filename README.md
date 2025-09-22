@@ -34,6 +34,9 @@ For communication, the prototype employs the SIM800L GSM/GPRS module, allowing t
   - IN4 → 
   - GND → GND
 ---
+## 🎬 Preview
+
+---
 ## 📖 Guide to Use
 1. Clone this repository:
 git clone https://github.com/Ghouilaanas/Smart-Energy-Meter.git
