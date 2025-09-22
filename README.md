@@ -41,4 +41,4 @@ git clone https://github.com/Ghouilaanas/Smart-Energy-Meter.git
 3. ⚙️ **Connect the Components**.
 4. 🛠️ **Build and flash the firmware** onto the Arduino Uno board using the Arduino IDE.
 5. 🔌 **Connect the sensors, microcontroller, and display** following the wiring diagram for the selected setup.
-6. ⚡ **Power on the system** , **Monitor energy consumption** , **Display results: The measured values (current, voltage, and energy consumption) are shown the LCD in real time** and **Send data remotely through the GSM network**.
+6. ⚡ **Power on the system** , **monitor energy consumption** , **display results: the measured values (current, voltage, and energy consumption) are shown the LCD in real time** and **send data remotely through the GSM network**.
