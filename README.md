@@ -34,7 +34,7 @@ For communication, the prototype employs the SIM800L GSM/GPRS module, allowing t
   - IN4 → Pin 5 (Fan 2 control)
   - GND → GND
   
-➡️ Relay Outputs:
+  ➡️ Relay Outputs:
   - Relay1 (IN1) → Light Bulb 1 (220V/110V live wire through relay, neutral directly)
   - Relay2 (IN2) → Light Bulb 2
   - Relay3 (IN3) → Fan 1
