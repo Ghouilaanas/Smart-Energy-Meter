@@ -9,7 +9,7 @@ For communication, the prototype employs the SIM800L GSM/GPRS module, allowing t
 
 #### 1. Hardware components
 - **Microcontroller** : Arduino Uno
-- **Sensor** : Analog Infrared Sensor **ACS712**
+- **Sensors** : Analog Infrared Sensors **ACS712**
 - **Loads** : fans and light bulbs
 - **Communication Module** : GSM **SIM800L**
 - **Display** : I²C LCD 16x2
@@ -17,9 +17,13 @@ For communication, the prototype employs the SIM800L GSM/GPRS module, allowing t
 - **Programming** : ArduinoIDE
 
 #### 1.2 Hardware connections
-- **ACS712** : 
+- **ACS712 #1** measures bulbs current : 
   - VCC → 5V (Arduino)
   - OUT → A0 (Arduino analog input)
+  - GND → GND (Arduino)
+- **ACS712 #2** measures fans current :
+  - VCC → 5V (Arduino)
+  - OUT → A1 (Arduino analog input)
   - GND → GND (Arduino)
 - **SIM800L** :
   - VCC → 5V
